@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    
+    <meta charset="utf-8">
+    <title>Jcoin | Polska lokalna kryptowaluta</title>
+    <link rel="stylesheet"  href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="icon" href="images/icon.png" type="image/gif" sizes="16x16">
+    </head>
+
+    <body>
+        <div style="min-width: 1920px; margin: 0 auto; max-height: 1080px;">
+    
+    <nav>
+        <div class="logo"> 
+        
+            <img src="images/logo.png" />
+        
+        </div>
+        
+
+        
+    
+        <ul class = "elementy">
+            <li><a href="index.html">Start</a></li>
+            <li><a href="hiw.html"l>Jak to działa?</a></li>
+            <li><a href="dost.html">Dostępność</a></li>
+            <li><a href="nagrody.html">Nagrody</a></li>
+        </ul>
+    
+    </nav>
+    <div class="main" id="sekcja1">  
+        <div class="front">
+            <img src="images/stock.jpg"  />    
+            <h1>Rewolucyjna polska kryptowaluta!</h1> 
+            <div class="napis2">
+                <p>Płatność w nowym wydaniu!</p>    
+            </div>
+        </div>  
+    
+        <div class="wrap">
+            <a href="#sekcja2">
+            <img src="http://image.flaticon.com/icons/svg/3/3907.svg" id="arrow" class="animated bounce">
+            </a>
+        </div>
+      
+    </div>      
+       
+    <div class="main" id="sekcja2">
+        <h2>Waluta dla każdego!</h2>    
+        
+        <div class="market-wrap">
+            <img src="images/market.jpg" />
+        </div>    
+    <div class="boxtext">
+        <p>Jcoin to kryptowaluta wykorzystująca technologię P2P, tak jak Bitcoin, czy Ethereum. Transakcje odbywają się w 100% przez internet. W przeciwieństwie do innych kryptowalut, Jcoin jest bardziej dostępny dla przeciętnych użytkowników, umożliwiając im możliwość transakcji.</p>
+    </div>
+   
+        
+        
+    <div class="ikona">
+        <div class="ikona1">   
+            <img src="images/online.png" />
+            <p>Całkowity brak opłat za transakcje</p>
+        </div> 
+    
+        <div class="ikona2">
+            <img src="images/safety.png" />
+            <p>Gwarantujemy najwyższe bezpieczeńswto<br> poprzez technologię Peer-2-Peer</p>
+        </div>
+   
+        <div class="ikona3">
+            <img src="images/change.png" />
+            <p>Natychmiastowe oraz korzystne przewalutowania</p>
+        </div>    
+    
+    </div>    
+    <div class="karta">
+         <p>Dostępność w większości sklepów spożywczych oraz na dedykowanych rynkach kryptowalut, umożliwia prostszy zakup i inwestycję. Jcoin Wallet&trade; jest wyposarzony w system płatności Blik, więc Jcoinem można zapłacić za praktycznie wszystko.</p>
+        <img src="images/karta.jpg" />
+    </div>
+
+
+        
+        
+        
+    </div>    
+        
+      
+        
+    <div class="loader-wrapper">
+        
+        <div class="loader"></div>
+    
+    </div>      
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>  
+        
+    <script>
+        $(window).on("load",function(){
+            $(".loader-wrapper").fadeOut("slow")
+        });
+    
+        var mybutton = document.getElementById("myBtn");
+
+
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+    }      else {
+        mybutton.style.display = "none";
+        }
+        }
+
+
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+            </script>
+    
+    </div>
+    </body>
+
+</html>
